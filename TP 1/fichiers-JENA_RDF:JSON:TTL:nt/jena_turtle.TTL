@@ -1,0 +1,78 @@
+<https://dbpedia.org/page/BBC_Symphony_Orchestra>
+        a                               <https://schema.org/Event> ;
+        <https://schema.org/isBasedOn>  <https://dbpedia.org/page/London> ;
+        <https://schema.org/name>       "L'orchestre symphonique de Londre" .
+
+<https://dbpedia.org/page/Symphony_No._41_(Mozart)__Sound__4>
+        a                              [ a  <https://schema.org/MusicComposition> ] ;
+        <https://schema.org/isPartOf>  <https://dbpedia.org/page/Symphony_No._41_(Mozart)> ;
+        <https://schema.org/name>      "Molto Allegro" .
+
+<https://dbpedia.org/page/Claudio_Abbado>
+        a                              <https://schema.org/Person> ;
+        <http://xmlns.com/foaf/0.1/familyName>
+                "Abbado" ;
+        <http://xmlns.com/foaf/0.1/givenName>
+                "Claudio " ;
+        <https://schema.org/jobTitle>  <https://schema.org/director> .
+
+<https://dbpedia.org/page/Symphony_No._41_(Mozart)__Sound__3>
+        a                              [ a  <https://schema.org/MusicComposition> ] ;
+        <https://schema.org/isPartOf>  <https://dbpedia.org/page/Symphony_No._41_(Mozart)> ;
+        <https://schema.org/name>      "Menuetto" .
+
+<https://dbpedia.org/page/London>
+        a                          [ a  <https://schema.org/City> ] ;
+        <https://schema.org/name>  "London" .
+
+<https://dbpedia.org/page/Symphony_No._41_(Mozart)__Sound__2>
+        a                              [ a  <https://schema.org/MusicComposition> ] ;
+        <https://schema.org/isPartOf>  <https://dbpedia.org/page/Symphony_No._41_(Mozart)> ;
+        <https://schema.org/name>      "Andante Cantabile" .
+
+<https://dbpedia.org/page/Symphony_No._41_(Mozart)__Sound__1>
+        a                              [ a  <https://schema.org/MusicComposition> ] ;
+        <https://schema.org/isPartOf>  <https://dbpedia.org/page/Symphony_No._41_(Mozart)> ;
+        <https://schema.org/name>      "Allegro Vivace " .
+
+<https://dbpedia.org/page/C_major>
+        a       <https://schema.org/musicalKey> .
+
+<https://dbpedia.org/page/Wolfgang_Amadeus_Mozart>
+        a                               [ a  <https://schema.org/Person> ] ;
+        <https://schema.org/birthDate>  "1756-01-27" ;
+        <https://schema.org/birthPlace>
+                <http://dbpedia.org/resource/Vienna> ;
+        <https://schema.org/creativeWorkStatus>
+                <https://dbpedia.org/page/Symphony_No._41_(Mozart)> , <https://dbpedia.org/page/The_Magic_Flute> ;
+        <https://schema.org/deathDate>  "1791-12-05" ;
+        <https://schema.org/deathPlace>
+                <http://dbpedia.org/resource/Salzburg> ;
+        <https://schema.org/familyName>
+                "Mozart" ;
+        <https://schema.org/givenName>  "Wolfgang Amadeus " ;
+        <https://schema.org/parent>     <https://dbpedia.org/page/Leopold_Mozart> ;
+        <https://schema.org/spouse>     <https://dbpedia.org/page/Constanze_Mozart> .
+
+<https://dbpedia.org/page/Symphony_No._41_(Mozart)>
+        a                              [ a  <https://schema.org/MusicComposition> ] ;
+        <https://schema.org/alternateName>
+                "Jupiter " ;
+        <https://schema.org/composer>  <https://dbpedia.org/page/Wolfgang_Amadeus_Mozart> ;
+        <https://schema.org/datePublished>
+                "1980" ;
+        <https://schema.org/genre>     <https://dbpedia.org/page/Symphony> ;
+        <https://schema.org/includedComposition>
+                <https://dbpedia.org/page/Symphony_No._41_(Mozart)__Sound__3> , <https://dbpedia.org/page/Symphony_No._41_(Mozart)__Sound__2> , <https://dbpedia.org/page/Symphony_No._41_(Mozart)__Sound__4> , <https://dbpedia.org/page/Symphony_No._41_(Mozart)__Sound__1> ;
+        <https://schema.org/musicalKey>
+                <https://dbpedia.org/page/C_major> ;
+        <https://schema.org/name>      "la 41 Symphonie en ut majeur " ;
+        <https://schema.org/subEvent>  <https://schema.org/MusicRecording> .
+
+<https://schema.org/MusicRecording>
+        a                              <https://schema.org/Event> ;
+        <https://schema.org/byArtist>  <https://dbpedia.org/page/BBC_Symphony_Orchestra> ;
+        <https://schema.org/dateCreated>
+                "1980" ;
+        <https://schema.org/director>  <https://dbpedia.org/page/Claudio_Abbado> ;
+        <https://schema.org/location>  <https://dbpedia.org/page/London> .

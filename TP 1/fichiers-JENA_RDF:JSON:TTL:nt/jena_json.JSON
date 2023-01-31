@@ -1,0 +1,165 @@
+{
+    "@graph": [
+        {
+            "@id": "_:b0",
+            "@type": "https://schema.org/MusicComposition"
+        },
+        {
+            "@id": "https://dbpedia.org/page/BBC_Symphony_Orchestra",
+            "https://schema.org/isBasedOn": {
+                "@id": "https://dbpedia.org/page/London"
+            },
+            "https://schema.org/name": "L'orchestre symphonique de Londre",
+            "@type": "https://schema.org/Event"
+        },
+        {
+            "@id": "https://dbpedia.org/page/London",
+            "@type": "_:b2",
+            "https://schema.org/name": "London"
+        },
+        {
+            "@id": "https://dbpedia.org/page/Symphony_No._41_(Mozart)__Sound__4",
+            "@type": "_:b1",
+            "https://schema.org/isPartOf": {
+                "@id": "https://dbpedia.org/page/Symphony_No._41_(Mozart)"
+            },
+            "https://schema.org/name": "Molto Allegro"
+        },
+        {
+            "@id": "_:b1",
+            "@type": "https://schema.org/MusicComposition"
+        },
+        {
+            "@id": "https://dbpedia.org/page/Symphony_No._41_(Mozart)",
+            "https://schema.org/includedComposition": [
+                {
+                    "@id": "https://dbpedia.org/page/Symphony_No._41_(Mozart)__Sound__3"
+                },
+                {
+                    "@id": "https://dbpedia.org/page/Symphony_No._41_(Mozart)__Sound__2"
+                },
+                {
+                    "@id": "https://dbpedia.org/page/Symphony_No._41_(Mozart)__Sound__4"
+                },
+                {
+                    "@id": "https://dbpedia.org/page/Symphony_No._41_(Mozart)__Sound__1"
+                }
+            ],
+            "https://schema.org/datePublished": "1980",
+            "https://schema.org/name": "la 41 Symphonie en ut majeur ",
+            "https://schema.org/subEvent": {
+                "@id": "https://schema.org/MusicRecording"
+            },
+            "@type": "_:b0",
+            "https://schema.org/composer": {
+                "@id": "https://dbpedia.org/page/Wolfgang_Amadeus_Mozart"
+            },
+            "https://schema.org/musicalKey": {
+                "@id": "https://dbpedia.org/page/C_major"
+            },
+            "https://schema.org/alternateName": "Jupiter ",
+            "https://schema.org/genre": {
+                "@id": "https://dbpedia.org/page/Symphony"
+            }
+        },
+        {
+            "@id": "_:b2",
+            "@type": "https://schema.org/City"
+        },
+        {
+            "@id": "https://dbpedia.org/page/Claudio_Abbado",
+            "https://schema.org/jobTitle": {
+                "@id": "https://schema.org/director"
+            },
+            "@type": "https://schema.org/Person",
+            "http://xmlns.com/foaf/0.1/familyName": "Abbado",
+            "http://xmlns.com/foaf/0.1/givenName": "Claudio "
+        },
+        {
+            "@id": "_:b3",
+            "@type": "https://schema.org/MusicComposition"
+        },
+        {
+            "@id": "_:b4",
+            "@type": "https://schema.org/MusicComposition"
+        },
+        {
+            "@id": "https://dbpedia.org/page/Symphony_No._41_(Mozart)__Sound__3",
+            "@type": "_:b4",
+            "https://schema.org/isPartOf": {
+                "@id": "https://dbpedia.org/page/Symphony_No._41_(Mozart)"
+            },
+            "https://schema.org/name": "Menuetto"
+        },
+        {
+            "@id": "_:b5",
+            "@type": "https://schema.org/MusicComposition"
+        },
+        {
+            "@id": "_:b6",
+            "@type": "https://schema.org/Person"
+        },
+        {
+            "@id": "https://dbpedia.org/page/Symphony_No._41_(Mozart)__Sound__2",
+            "@type": "_:b5",
+            "https://schema.org/isPartOf": {
+                "@id": "https://dbpedia.org/page/Symphony_No._41_(Mozart)"
+            },
+            "https://schema.org/name": "Andante Cantabile"
+        },
+        {
+            "@id": "https://dbpedia.org/page/Symphony_No._41_(Mozart)__Sound__1",
+            "@type": "_:b3",
+            "https://schema.org/isPartOf": {
+                "@id": "https://dbpedia.org/page/Symphony_No._41_(Mozart)"
+            },
+            "https://schema.org/name": "Allegro Vivace "
+        },
+        {
+            "@id": "https://dbpedia.org/page/C_major",
+            "@type": "https://schema.org/musicalKey"
+        },
+        {
+            "@id": "https://dbpedia.org/page/Wolfgang_Amadeus_Mozart",
+            "https://schema.org/deathDate": "1791-12-05",
+            "https://schema.org/birthPlace": {
+                "@id": "http://dbpedia.org/resource/Vienna"
+            },
+            "https://schema.org/spouse": {
+                "@id": "https://dbpedia.org/page/Constanze_Mozart"
+            },
+            "https://schema.org/birthDate": "1756-01-27",
+            "https://schema.org/parent": {
+                "@id": "https://dbpedia.org/page/Leopold_Mozart"
+            },
+            "https://schema.org/familyName": "Mozart",
+            "https://schema.org/deathPlace": {
+                "@id": "http://dbpedia.org/resource/Salzburg"
+            },
+            "https://schema.org/creativeWorkStatus": [
+                {
+                    "@id": "https://dbpedia.org/page/Symphony_No._41_(Mozart)"
+                },
+                {
+                    "@id": "https://dbpedia.org/page/The_Magic_Flute"
+                }
+            ],
+            "@type": "_:b6",
+            "https://schema.org/givenName": "Wolfgang Amadeus "
+        },
+        {
+            "@id": "https://schema.org/MusicRecording",
+            "https://schema.org/byArtist": {
+                "@id": "https://dbpedia.org/page/BBC_Symphony_Orchestra"
+            },
+            "https://schema.org/dateCreated": "1980",
+            "https://schema.org/location": {
+                "@id": "https://dbpedia.org/page/London"
+            },
+            "https://schema.org/director": {
+                "@id": "https://dbpedia.org/page/Claudio_Abbado"
+            },
+            "@type": "https://schema.org/Event"
+        }
+    ]
+}

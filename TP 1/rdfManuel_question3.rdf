@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:schema="https://schema.org/" 
+  xmlns:foaf="http://xmlns.com/foaf/0.1"
+  xmlns:music="http://www.kanzaki.com/ns/music#"
+  xmlns:geo="http://www.opengis.net/ont/geosparql#"
+  >
+  <rdf:Description rdf:about="https://dbpedia.org/page/Symphony_No._41_(Mozart)">
+     <schema:name  xml:lang="fr">la 41 Symphonie en ut majeur</schema:name>
+     <schema:alternateName>Jupiter</schema:alternateName>
+     <rdf:type rdf:resource="https://schema.org/MusicComposition"/>
+     <schema:genre rdf:resource="https://dbpedia.org/page/Symphony"/>
+     <schema:composer rdf:resource="https://dbpedia.org/page/Wolfgang_Amadeus_Mozart"/>
+     <schema:musicalKey rdf:resource="https://dbpedia.org/page/C_major"/>
+     <schema:includedComposition  rdf:resource="https://dbpedia.org/page/Symphony_No._41_(Mozart)__Sound__1" />
+     <schema:includedComposition  rdf:resource="https://dbpedia.org/page/Symphony_No._41_(Mozart)__Sound__2" />
+     <schema:includedComposition  rdf:resource="https://dbpedia.org/page/Symphony_No._41_(Mozart)__Sound__3" />
+     <schema:includedComposition  rdf:resource="https://dbpedia.org/page/Symphony_No._41_(Mozart)__Sound__4"/>
+     <schema:subEvent  rdf:resource="https://schema.org/MusicRecording"/>
+  </rdf:Description>
+
+   <rdf:Description rdf:about="https://dbpedia.org/page/BBC_Symphony_Orchestra">
+     <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Orchestra"/>
+     <schema:name  xml:lang="fr">L'orchestre symphonique de Londre</schema:name>
+     <schema:location  rdf:resource="https://dbpedia.org/page/London"/> 
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://schema.org/MusicRecording">
+     <rdf:type rdf:resource="https://schema.org/Event"/>
+     <schema:location  rdf:resource="https://dbpedia.org/page/London"/>
+     <schema:director rdf:resource="https://dbpedia.org/page/Claudio_Abbado"/>
+     <schema:dateCreated rdf:datatype="xs:date">1980</schema:dateCreated>
+     <schema:byArtist  rdf:resource="https://dbpedia.org/page/BBC_Symphony_Orchestra"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://dbpedia.org/page/London">
+      <schema:name  xml:lang="fr">London</schema:name>
+      <rdf:type rdf:resource="https://schema.org/City"/>
+      <geo:capitalOf rdf:resource="http://fr.dbpedia.org/page/Angleterre"/> 
+  </rdf:Description>
+
+   <rdf:Description rdf:about="https://dbpedia.org/page/Claudio_Abbado">
+     <rdf:type rdf:resource="https://schema.org/Person"/>
+     <schema:givenName  xml:lang="fr">Claudio </schema:givenName>
+     <schema:familyName  xml:lang="fr"> Abbado</schema:familyName> 
+     <schema:jobTitle rdf:resource="http://fr.dbpedia.org/page/Le_Chef_d'orchestre"/>
+   </rdf:Description>
+
+    
+
+   <rdf:Description rdf:about="https://dbpedia.org/page/Symphony_No._41_(Mozart)__Sound__1">
+     <schema:name  >Allegro Vivace</schema:name>
+     <schema:isPartOf rdf:resource="https://dbpedia.org/page/Symphony_No._41_(Mozart)" />
+     <rdf:type rdf:resource="https://schema.org/MusicComposition"/>
+     <schema:musicalKey rdf:resource="https://dbpedia.org/page/C_major"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://dbpedia.org/page/Symphony_No._41_(Mozart)__Sound__2">
+     <schema:name  >Andante Cantabile</schema:name>
+      <schema:isPartOf rdf:resource="https://dbpedia.org/page/Symphony_No._41_(Mozart)" />
+      <rdf:type rdf:resource="schema/MusicComposition"/>
+      <schema:musicalKey rdf:resource="https://dbpedia.org/page/C_major"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://dbpedia.org/page/Symphony_No._41_(Mozart)__Sound__3">
+     <schema:name >Menuetto</schema:name>
+      <schema:isPartOf rdf:resource="https://dbpedia.org/page/Symphony_No._41_(Mozart)" />
+      <rdf:type rdf:resource="https://schema.org/MusicComposition"/>
+      <schema:musicalKey rdf:resource="https://dbpedia.org/page/C_major"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://dbpedia.org/page/Symphony_No._41_(Mozart)__Sound__4">
+     <schema:name  >Molto Allegro</schema:name>
+     <schema:isPartOf rdf:resource="https://dbpedia.org/page/Symphony_No._41_(Mozart)" />
+     <rdf:type rdf:resource="https://schema.org/MusicComposition"/>
+     <schema:musicalKey rdf:resource="https://dbpedia.org/page/C_major"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://dbpedia.org/page/Wolfgang_Amadeus_Mozart">
+      <rdf:type rdf:resource="https://schema.org/Person"/>
+      <schema:givenName  >Wolfgang Amadeus </schema:givenName>
+      <schema:familyName  > Mozart</schema:familyName> 
+      <schema:birthDate rdf:datatype="xs:date">1756-01-27</schema:birthDate>
+      <schema:birthPlace rdf:resource="http://dbpedia.org/resource/Salzburg"/>
+      <schema:deathDate rdf:datatype="xs:date">1791-12-05</schema:deathDate>
+      <schema:deathPlace rdf:resource="http://dbpedia.org/resource/Vienna"/> 
+      <schema:spouse rdf:resource="https://dbpedia.org/page/Constanze_Mozart"/>
+      <schema:parent rdf:resource="https://dbpedia.org/page/Leopold_Mozart"/>
+      <schema:jobTitle rdf:resource="https://dbpedia.org/ontology/composer"/>
+      <music:creativeWorkStatus rdf:resource="https://dbpedia.org/page/The_Magic_Flute"/>
+      <music:creativeWorkStatus rdf:resource="https://dbpedia.org/page/Symphony_No._41_(Mozart)"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://dbpedia.org/page/The_Magic_Flute">
+     <schema:name  >La Flute enchantée</schema:name>
+     <schema:isPartOf rdf:resource="https://dbpedia.org/page/Symphony_No._41_(Mozart)" />
+     <rdf:type rdf:resource="https://schema.org/MusicComposition"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Vienna">
+      <schema:name  xml:lang="fr">Vienna</schema:name>
+      <rdf:type rdf:resource="https://schema.org/City"/>
+       <geo:capitalOf rdf:resource="http://fr.dbpedia.org/resource/Autriche"/> 
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="https://dbpedia.org/page/Constanze_Mozart">
+      <rdf:type rdf:resource="https://schema.org/Person"/>
+      <schema:givenName > Constanze </schema:givenName>
+     <schema:familyName > Weber</schema:familyName>
+  </rdf:Description>
+   
+  <rdf:Description rdf:about="https://dbpedia.org/page/Leopold_Mozart">
+     <rdf:type rdf:resource="https://schema.org/Person"/>
+     <schema:givenName >Leopold </schema:givenName>
+     <schema:familyName > Mozart</schema:familyName>
+  </rdf:Description>
+</rdf:RDF>
